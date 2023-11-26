@@ -41,7 +41,7 @@ if [[ $1 == "init" ]]; then
 	# Remove the previous folder
 	rm -rf "$HOMEDIR"
 
-	make install
+	# make install
 
 	# Set client config
 	mouseiond config keyring-backend $KEYRING --home "$HOMEDIR"
