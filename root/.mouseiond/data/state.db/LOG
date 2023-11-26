@@ -1,0 +1,11 @@
+=============== Nov 26, 2023 (MSK) ===============
+08:25:31.026718 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:25:31.028454 db@open opening
+08:25:31.028745 version@stat F·[] S·0B[] Sc·[]
+08:25:31.029293 db@janitor F·2 G·0
+08:25:31.029347 db@open done T·872.209µs
+10:10:24.136462 memdb@flush N·6285 S·3MiB
+10:10:24.147523 memdb@flush created L0@3 N·6285 S·755KiB "abc..y:1,v6":"val..999,v4988"
+10:10:24.147609 version@stat F·[1] S·755KiB[755KiB] Sc·[0.25]
+10:10:24.148244 memdb@flush committed F·1 T·11.734274ms
+10:10:24.149245 journal@remove removed @1

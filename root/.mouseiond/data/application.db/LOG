@@ -1,0 +1,66 @@
+=============== Nov 26, 2023 (MSK) ===============
+08:25:31.007472 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:25:31.009663 db@open opening
+08:25:31.009940 version@stat F·[] S·0B[] Sc·[]
+08:25:31.010426 db@janitor F·2 G·0
+08:25:31.010464 db@open done T·781.652µs
+08:48:07.760309 memdb@flush N·50243 S·3MiB
+08:48:07.778617 memdb@flush created L0@3 N·50243 S·1MiB "s/1,v466":"s/p..hts,v567"
+08:48:07.778668 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+08:48:07.779077 memdb@flush committed F·1 T·18.724877ms
+08:48:07.779710 journal@remove removed @1
+09:09:49.350721 memdb@flush N·50046 S·3MiB
+09:09:49.368901 memdb@flush created L0@5 N·50046 S·1MiB "s/271,v50344":"s/p..hts,v50343"
+09:09:49.368951 version@stat F·[2] S·3MiB[3MiB] Sc·[0.50]
+09:09:49.369376 memdb@flush committed F·1 T·18.601936ms
+09:09:49.370404 journal@remove removed @2
+09:10:09.371070 table@compaction L0·2 -> L1·0 S·3MiB Q·100752
+09:10:09.383748 table@build created L1@6 N·2841 S·677KiB "s/1,v466":"s/p..hts,v100289"
+09:10:09.383777 version@stat F·[0 1] S·677KiB[0B 677KiB] Sc·[0.00 0.01]
+09:10:09.384134 table@compaction committed F-1 S-2MiB Ke·0 D·97448 T·13.038202ms
+09:10:09.384322 table@remove removed @5
+09:10:09.384463 table@remove removed @3
+09:31:15.999601 memdb@flush N·49807 S·3MiB
+09:31:16.013859 memdb@flush created L0@8 N·49807 S·1MiB "s/531,v100290":"s/p..hts,v100405"
+09:31:16.013892 version@stat F·[1 1] S·2MiB[1MiB 677KiB] Sc·[0.25 0.01]
+09:31:16.014282 memdb@flush committed F·1 T·14.642082ms
+09:31:16.015292 journal@remove removed @4
+09:31:36.023964 table@compaction L0·1 -> L1·1 S·2MiB Q·151380
+09:31:36.036252 table@build created L1@9 N·4403 S·1016KiB "s/1,v466":"s/p..hts,v150008"
+09:31:36.036307 version@stat F·[0 1] S·1016KiB[0B 1016KiB] Sc·[0.00 0.01]
+09:31:36.036734 table@compaction committed F-1 S-1MiB Ke·0 D·48245 T·12.736284ms
+09:31:36.036991 table@remove removed @8
+09:31:36.037178 table@remove removed @6
+09:52:22.675807 memdb@flush N·50222 S·3MiB
+09:52:22.693550 memdb@flush created L0@11 N·50222 S·1MiB "s/1000,v192417":"s/p..hts,v150126"
+09:52:22.693618 version@stat F·[1 1] S·2MiB[1MiB 1016KiB] Sc·[0.25 0.01]
+09:52:22.694058 memdb@flush committed F·1 T·18.214422ms
+09:52:22.694811 journal@remove removed @7
+09:52:42.700011 table@compaction L0·1 -> L1·1 S·2MiB Q·200827
+09:52:42.713945 table@build created L1@12 N·4848 S·1MiB "s/1,v466":"s/p..hts,v199452"
+09:52:42.713990 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+09:52:42.714364 table@compaction committed F-1 S-1MiB Ke·0 D·49777 T·14.319257ms
+09:52:42.714617 table@remove removed @11
+09:52:42.714849 table@remove removed @9
+10:13:09.380242 memdb@flush N·49671 S·3MiB
+10:13:09.397808 memdb@flush created L0@14 N·49671 S·1MiB "s/1041,v200359":"s/p..hts,v200358"
+10:13:09.397856 version@stat F·[1 1] S·2MiB[1MiB 1MiB] Sc·[0.25 0.01]
+10:13:09.398276 memdb@flush committed F·1 T·17.995049ms
+10:13:09.399208 journal@remove removed @10
+10:13:29.397586 table@compaction L0·1 -> L1·1 S·2MiB Q·250738
+10:13:29.416669 table@build created L1@15 N·6076 S·1MiB "s/1,v466":"s/p..hts,v249449"
+10:13:29.416717 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+10:13:29.417109 table@compaction committed F-1 S-1MiB Ke·0 D·48443 T·19.493814ms
+10:13:29.417444 table@remove removed @14
+10:13:29.417657 table@remove removed @12
+10:34:01.357517 memdb@flush N·49647 S·3MiB
+10:34:01.377046 memdb@flush created L0@17 N·49647 S·1MiB "s/1290,v250260":"s/p..hts,v250379"
+10:34:01.377094 version@stat F·[1 1] S·3MiB[1MiB 1MiB] Sc·[0.25 0.02]
+10:34:01.377557 memdb@flush committed F·1 T·19.979699ms
+10:34:01.378460 journal@remove removed @13
+10:34:21.374466 table@compaction L0·1 -> L1·1 S·3MiB Q·300841
+10:34:21.391850 table@build created L1@18 N·7532 S·1MiB "s/1,v466":"s/p..hts,v299556"
+10:34:21.391895 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+10:34:21.392274 table@compaction committed F-1 S-1MiB Ke·0 D·48191 T·17.779651ms
+10:34:21.392499 table@remove removed @17
+10:34:21.392711 table@remove removed @15

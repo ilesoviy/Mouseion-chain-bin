@@ -1,0 +1,6 @@
+=============== Nov 26, 2023 (MSK) ===============
+08:25:31.043638 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:25:31.045433 db@open opening
+08:25:31.045733 version@stat F·[] S·0B[] Sc·[]
+08:25:31.046193 db@janitor F·2 G·0
+08:25:31.046207 db@open done T·761.305µs
