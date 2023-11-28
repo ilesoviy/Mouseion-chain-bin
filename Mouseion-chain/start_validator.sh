@@ -56,7 +56,7 @@ if [[ $1 == "init" ]]; then
 	sed -i 's/127.0.0.1:6060/0.0.0.0:6060/g' "$CONFIG"
 	sed -i 's/127.0.0.1/0.0.0.0/g' "$APP_TOML"
 
-	SEEDS='84b65959240bf72831c71218cd47b761d1518110@mouseion.cosm.tendermint.main.cryptosnowprince.com:26656'
+	SEEDS='41a2bd439b29b5f76237e595401d60576b9c8270@34.71.175.72:26656'
 	#sed -i "s/seeds =.*/seeds = \"$SEEDS\"/g" "$CONFIG"
 	sed -i "s/persistent_peers =.*/persistent_peers = \"$SEEDS\"/g" "$CONFIG"
 
